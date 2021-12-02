@@ -10,7 +10,7 @@ public class MeasurementData {
 
   public List<Integer> getData() throws FileNotFoundException {
     // creating file instance to grab the text file
-    File measurementData = new File("./src/com" +
+    File measurementData = new File("./day1/src/com" +
             "/adventcode/data/inputDay1.txt");
 
     // scanning the file instance to read the contents
@@ -18,12 +18,10 @@ public class MeasurementData {
 
     //Reading each line of the file using Scanner to turn the input data into an array of integers
     ArrayList<Integer> listOfInputs = new ArrayList();
-    int lineNumber = 1;
     while(scanner.hasNextLine()){
       String inputString = scanner.nextLine();
       int inputInteger = Integer.parseInt(inputString);
       listOfInputs.add(inputInteger);
-      lineNumber++;
     }
 
     return listOfInputs;
