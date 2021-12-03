@@ -10,7 +10,7 @@ public class SubmarineMovement {
 
   public static void main (String[] args) throws FileNotFoundException {
     ReadSubmarineData readSubmarineData = new ReadSubmarineData();
-    SubmarineModel submarineModel = new SubmarineModel(0,0);
+    SubmarineModel submarineModel = new SubmarineModel();
 
     submarineMovement(submarineModel, readSubmarineData.getData());
   }
@@ -43,3 +43,4 @@ public class SubmarineMovement {
     System.out.println("Mulitplied together it is: " + total);
   }
 }
+// 2272262
