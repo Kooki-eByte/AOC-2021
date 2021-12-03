@@ -1,4 +1,4 @@
-package com.adventcode;
+package com.adventcode.day_one;
 
 import java.io.FileNotFoundException;
 import java.util.List;
