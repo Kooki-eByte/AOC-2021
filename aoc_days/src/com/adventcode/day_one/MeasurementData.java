@@ -1,4 +1,4 @@
-package com.adventcode;
+package com.adventcode.day_one;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -10,8 +10,8 @@ public class MeasurementData {
 
   public List<Integer> getData() throws FileNotFoundException {
     // creating file instance to grab the text file
-    File measurementData = new File("./day1/src/com" +
-            "/adventcode/data/inputDay1.txt");
+    File measurementData = new File("./aoc_days/src/com" +
+            "/adventcode/day_one/data/inputDay1.txt");
 
     // scanning the file instance to read the contents
     Scanner scanner = new Scanner(measurementData);
